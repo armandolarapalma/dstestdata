@@ -1,0 +1,1 @@
+gcloud alpha storage buckets create gs://anoc001-test-armandolara
