@@ -1,7 +1,7 @@
 # Test Arquitecto de datos
 Prueba tecnica arquitecto de datos
 
-## RESPUESTA A EJERCICIO 2 PASO V
+## RESPUESTA A EJERCICIO 1 PASO V
 
 Maquina serie N1 tipo standard-2 (2cpus, 7.5 Ram) 
 OS Debian se opta por este OS ya que es ligero y dado que se elige un tipo de maquina con especificaciones limitidas para ahorrar en costos me peracio la mejor opcion
@@ -67,3 +67,15 @@ Bash para crea el bucket "anoc001-test-data-armandolara" en google cloud storage
 ```bash
 gcloud alpha storage buckets create gs://anoc001-test-armandolara
 ```
+
+## Notebook
+# Inicia desarrollo de proceso ETL, incluye respuestas a ejercicio 1 pasos: III,VI, VIII, IX, X
+
+El archivo DSTESTEDATA.ipynb de la carpeta Ejercicio1 contine el desarrolle del proceso ETL.
+
+El codigo de este notebook se deja listo para ser desplegado en Cloud funtions y que su ejecucion sea desencadenada atraves de eventos monitereando los cambios ocurridos en la carpeta raw del bucket de storage. 
+-Ejercicio
+--Funcions
+
+
+
