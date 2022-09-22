@@ -46,3 +46,24 @@ gcloud compute instances create beam-20220916-153758
 --labels=goog-caip-notebook= 
 --reservation-affinity=any
 ```
+Una vez creada la maquina virtual se debe registrar la instancia con la nueva API de Notebooks
+Pasos: 
+    1- En la consola de GCP dirigirse al servicio Vertex AI. 
+    2- seleccionar Workbench. 
+    3-Marcar la casilla Incluir instancias heredadas. 
+    4- Click en REGISTER ALL
+    
+## RESPUESTA EJERCICIO 1 PASO II
+
+Bash para crea el bucket "anoc001-test-armandolara" en google cloud storage, se pude ejecutar en el bash de GCP en este paso los Buckes nacen con la propiedad de monitorear eventos atraves de Cloud Logging por lo que podemos crear procesos que se ejecuten atraves de eventos que sucedan dentro del bucket.
+
+```bash
+gcloud alpha storage buckets create gs://anoc001-test-armandolara
+```
+
+## RESPUESTA EJERCICIO 1 PASO III
+Bash para crea el bucket "anoc001-test-data-armandolara" en google cloud storage, se pude ejecutar en el bash de GCP  en este paso los Buckes nacen con la propiedad de monitorear eventos atraves de Cloud Logging por lo que podemos crear procesos que se ejecuten atraves de eventos que sucedan dentro del bucket
+
+```bash
+gcloud alpha storage buckets create gs://anoc001-test-armandolara
+```
